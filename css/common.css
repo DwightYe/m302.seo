@@ -3,7 +3,7 @@ body{background:#fff;color:#555;font-family:Verdana,Arial,Helvetica,sans-serif}
 h1,h2,h3,h4,h5,h6{font-weight:400;font-size:1rem}
 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}
 a{color:#555;text-decoration:none}
-a:hover{text-decoration:underline}
+a:hover{text-decoration:none}
 img{border:none}
 li,ol,ul{list-style:none}
 button,input,select,textarea{font:1rem Verdana,Helvetica,Arial,sans-serif}
@@ -11,6 +11,9 @@ table{border-collapse:collapse}
 html{font-size:16px}
 .container{max-width:1200px;padding:0 15px;margin:0 auto}
 .flex{display: flex}
+/* icon */
+.icon{display:inline-block;background-repeat:no-repeat;background-image:url(../img/icon.png)}
+.icon-house{width:14px;height:13px;background-position:0 0}
 /* hedaer */
 .header-row-1{background:#f2f2f2;border-bottom:1px solid #e5e5e5}
 .header-row-1 .container{display:flex;align-items:center;height:30px}

@@ -1,0 +1,11 @@
+.banklist-main{background:#f6f6f6;padding: 20px 0}
+.banklist-panel{margin-bottom:20px}
+.bank-list{display:flex;flex-wrap:wrap;padding:20px 15px 9px 15px;background:#fff}
+.bank-list li{width:calc((100% - 55px)/ 6);box-sizing:border-box;border:1px solid #e8e8e8;margin-right:11px;margin-bottom:11px}
+.bank-list li:nth-child(6n+6){margin-right:0}
+.bank-list a{display:flex;justify-content:center;align-items:center;padding:5px 10px}
+.bank-list img{object-fit:contain;width:100%;height:100%}
+.rec-title{height:40px;margin-top:18px;margin-bottom:0;background-color:#eee;padding:0}
+.rec-title span{display:block;width:100px;height:40px;line-height:40px;background-color:#f34f4f;color:#fff;margin-left:0;text-align:center}
+.title{line-height:initial;height:24px;padding-bottom:7px;border-bottom:1px solid #eee;margin-bottom:10px;font-size:18px}
+.title span{border-left:4px solid #f34f4f;line-height:1em;margin-left:8px;padding-left:15px;color:#333}

@@ -108,6 +108,25 @@
                         </a>
                     </li>
                 </ul>
+                <div class="btn prev-btn"><i><</i></div>
+                <div class="btn next-btn"><i>></i></div>
+                <script>
+                var nowNews = 0;
+                moveNews()
+                $(".news-swiper .prev-btn").click(function(){
+                    if(nowNews==0) nowNews = 4
+                    else nowNews--;
+                    moveNews()
+                })
+                $(".news-swiper .next-btn").click(function(){
+                    if(nowNews==4) nowNews = 0
+                    else nowNews++;
+                    moveNews()
+                })
+                function moveNews(){
+                    for(var i =0;i<5;i++) $(".news-swiper li:eq("+i+")").css("left",20*(i-nowNews)+"%")
+                }
+                </script>
             </div>
             <div class="news-main">
                 <div class="lf">

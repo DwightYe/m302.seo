@@ -1,7 +1,4 @@
 .newslist-box{background:#f2f2f2;padding-bottom:30px}
-.inner-nav{padding:10px 0}
-.inner-nav a,.inner-nav span{font-size:14px;color:#333;line-height:20px;transition:all .2s}
-.inner-nav a:hover{color:#ff4a5c}
 .news-swiper{margin-bottom:20px;overflow:hidden;position:relative}
 .news-swiper ul{position:relative;height:315px;width:500%}
 .news-swiper li{position:absolute;top:0;left:0;width:20%;height:100%;background:#fff;transition:all .5s}

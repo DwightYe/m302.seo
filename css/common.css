@@ -60,3 +60,7 @@ html{font-size:16px}
 .copyright a{color:#1b222f}
 .footer-last{margin-left: auto;color: #818394}
 .footer-cr,.footer-cr a{color: #818394}
+/* innernav */
+.inner-nav{padding:10px 0}
+.inner-nav a,.inner-nav span{font-size:14px;color:#333;line-height:20px;transition:all .2s}
+.inner-nav a:hover{color:#ff4a5c}

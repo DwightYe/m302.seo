@@ -3,7 +3,7 @@
 .bank-list{display:flex;flex-wrap:wrap;padding:20px 15px 9px 15px;background:#fff}
 .bank-list li{width:calc((100% - 55px)/ 6);box-sizing:border-box;border:1px solid #e8e8e8;margin-right:11px;margin-bottom:11px}
 .bank-list li:nth-child(6n+6){margin-right:0}
-.bank-list a{display:flex;justify-content:center;align-items:center;padding:5px 10px}
+.bank-list a{display:flex;justify-content:center;align-items:center;padding:10px 15px;height:40px}
 .bank-list img{object-fit:contain;width:100%;height:100%}
 .rec-title{height:40px;margin-bottom:0;background-color:#eee;padding:0}
 .rec-title span{display:block;width:100px;height:40px;line-height:40px;background-color:#f34f4f;color:#fff;margin-left:0;text-align:center}

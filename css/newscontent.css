@@ -44,3 +44,7 @@
 .widget-post-item-withImage .img img{border-radius:3px;height:60px;object-fit:cover}
 .widget-title a{-webkit-line-clamp:2;overflow:hidden;display:-webkit-box;text-overflow:ellipsis;-webkit-box-orient:vertical;font-size:14px;height:38px}
 .widget-post-item-withImage .meta{color:#a5aab0;font-size:12px;margin-top:7px}
+.content-share{display:flex;justify-content:flex-end;align-items:center}
+.content-share ul{display:flex}
+.content-share ul li{margin-left:5px;transition:all .3s}
+.content-share ul li:hover{opacity:.8}

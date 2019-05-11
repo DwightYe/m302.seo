@@ -1,6 +1,6 @@
 .newslist-box{background:#f2f2f2;padding-bottom:30px}
 .news-main{display:flex}
-.news-main .lf{width:820px;margin-right:20px;padding:30px;background:#fff}
+.news-main .lf{width:820px;margin-right:20px}
 .news-title{font-size:20px;line-height:28px;color:#1e1e1e;font-weight:600;margin-bottom:10px}
 .news-main-text{font-size:16px;color:#333;line-height:32px}
 .news-info{margin-bottom:28px;display:flex}
@@ -8,7 +8,8 @@
 .news-info .tags{margin-left:auto}
 .news-main-text p{text-indent:32px}
 .news-main-text img{display:block;margin:0 auto}
-.white-panel{background:#fff;margin-bottom:30px;padding:30px;width:290px}
+.white-panel{background:#fff;margin-bottom:30px;padding:30px}
+.rt .white-panel{width:290px}
 .type-list{display:flex;flex-wrap:wrap}
 .type-list li{border:1px solid #e3e3e3;border-radius:20px;width:130px;box-sizing:border-box;margin:15px 0;margin-right:30px}
 .type-list li:nth-child(2n+2){margin-right:0}
@@ -48,3 +49,20 @@
 .content-share ul{display:flex}
 .content-share ul li{margin-left:5px;transition:all .3s}
 .content-share ul li:hover{opacity:.8}
+.nopadding{padding:0}
+.gcon-top{display:flex;padding:15px 20px 0 15px}
+.gtit{font-size:18px;color:#333}
+.card-nav{display:flex;margin-left:auto}
+.card-nav a{font-size:14px;color:#333;line-height:1.5em;padding:0 10px 13px 10px;display:inline-block;cursor:pointer;box-sizing:border-box;border-bottom:2px solid transparent}
+.card-nav a:hover{color:#f34f4f}
+.card-nav li.active a{border-bottom:2px solid #f34f4f;color:#f34f4f}
+.gmore a{font-size:14px;color:#333;margin-left:20px}
+.gcon-list ul{display:flex;flex-wrap:wrap;text-align:center}
+.gcon-list li{padding:30px 15px;box-sizing:border-box;border-right:1px solid #eee;border-top:1px solid #eee;width:25%;position:relative}
+.gcon-list li:nth-child(4n+4){border-right:0}
+.gcon-list li img{width:100%}
+.gcon-tit{font-size:14px;color:#333;line-height:1.5em;margin:11px 5px 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gcon-word{font-size:10px;color:#666;line-height:1.5em;margin-bottom:10px}
+.gcon-link{font-size:14px;color:#f34f4f;line-height:35px;margin:0 auto;border:#f34f4f solid 1px;border-radius:30px;display:block;box-sizing:border-box;width:120px}
+.gcon-link:hover{background:#f24b4b;color:#fff}
+.gcon-list li .rank{position:absolute;top:0;left:15px}

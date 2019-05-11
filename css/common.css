@@ -10,17 +10,23 @@ button,input,select,textarea{font:1rem Verdana,Helvetica,Arial,sans-serif}
 table{border-collapse:collapse}
 html{font-size:16px}
 .container{max-width:1200px;padding:0 15px;margin:0 auto}
-.flex{display: flex}
-/* icon */
-.icon{display:inline-block;background-repeat:no-repeat;background-image:url(../img/icon-sprite.png);font-style: normal}
-.icon-qzone{width:30px;height:30px;background-position:0 0}
+.flex{display:flex}
+.icon{display:inline-block;background-repeat:no-repeat;background-image:url(../img/icon-sprite.png);font-style:normal}
+.icon-weibo{width:30px;height:30px;background-position:0 0}
 .icon-wechat{width:30px;height:30px;background-position:-30px 0}
-.icon-weibo{width:30px;height:30px;background-position:-60px 0}
-.icon-play{width:11px;height:14px;background-position:-90px 0}
-.icon-clock{width:14px;height:14px;background-position:-101px 0}
-.icon-comment{width:14px;height:14px;background-position:-115px 0}
-.icon-house{width:14px;height:13px;background-position:-129px 0}
-/* hedaer */
+.icon-qzone{width:30px;height:30px;background-position:-60px 0}
+.icon-dh1{width:34px;height:28px;background-position:-90px 0}
+.icon-dh2{width:34px;height:28px;background-position:-124px 0}
+.icon-top01{width:27px;height:22px;background-position:-158px 0}
+.icon-top03{width:27px;height:22px;background-position:-185px 0}
+.icon-top02{width:27px;height:22px;background-position:-212px 0}
+.icon-sgood{width:14px;height:16px;background-position:-239px 0}
+.icon-sclock{width:15px;height:15px;background-position:-253px 0}
+.icon-play{width:11px;height:14px;background-position:-268px 0}
+.icon-clock{width:14px;height:14px;background-position:-279px 0}
+.icon-comment{width:14px;height:14px;background-position:-293px 0}
+.icon-splay{width:13px;height:13px;background-position:-307px 0}
+.icon-house{width:14px;height:13px;background-position:-320px 0}
 .header-row-1{background:#f2f2f2;border-bottom:1px solid #e5e5e5}
 .header-row-1 .container{display:flex;align-items:center;height:30px}
 .header-row-1 a{color:#999;font-size:12px}
@@ -41,7 +47,6 @@ html{font-size:16px}
 .header-user-menu a:hover{text-decoration:unset}
 .header-register-btn{padding:0 15px;height:32px;margin-left:20px;border:1px solid #ff4f3f;border-radius:3px;text-align:center;transition:all .5s}
 .header-register-btn:hover{background:#ff4f3f;color:#fff}
-/* footer */
 .blue-link-box{display:flex;flex-wrap:wrap}
 .blue-link-box li{width:100px;margin-bottom:5px;margin-right:10px;color:rgba(0,0,0,.6);display:inline-block}
 .blue-link-box a{font-size:12px;color:rgba(0,0,0,.6);line-height:13.8px}
@@ -49,7 +54,7 @@ html{font-size:16px}
 .footer-linkPart .title{margin-top:0;font-size:18px;color:rgba(0,0,0,.44);font-weight:400;padding-top:30px}
 .footer-linkPart{padding:20px 0;margin-top:30px}
 .footer-title{font-weight:600;color:#fff;margin-bottom:20px;font-size:16px}
-.footer-nav a{font-size: 14px}
+.footer-nav a{font-size:14px}
 .info-section{width:440px;padding-right:30px;font-size:14px}
 .site-footer{background:#222c3c;padding-top:40px;padding-bottom:20px;color:#818394}
 .site-footer a{color:#818394}
@@ -57,16 +62,15 @@ html{font-size:16px}
 .link-section{width:150px;padding-right:20px}
 .blue-pic-ul{display:flex;flex-wrap:wrap}
 .partner-section{width:300px}
-.partner-section img{width:80px}
+.partner-section img{width:80px;height:35px;object-fit:contain;padding:5px}
 .qr-section{margin-left:auto}
 .qr-section img{height:140px;width:140px}
 .qr-section p{font-size:16px}
 .copyright{background-color:#1b222f;font-size:12px;padding:10px 0;line-height:1.8}
 .copyright .container{display:flex}
 .copyright a{color:#1b222f}
-.footer-last{margin-left: auto;color: #818394}
-.footer-cr,.footer-cr a{color: #818394}
-/* innernav */
+.footer-last{margin-left:auto;color:#818394}
+.footer-cr,.footer-cr a{color:#818394}
 .inner-nav{padding:10px 0}
 .inner-nav a,.inner-nav span{font-size:14px;color:#333;line-height:20px;transition:all .2s}
 .inner-nav a:hover{color:#ff4a5c}

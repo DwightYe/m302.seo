@@ -1,0 +1,35 @@
+.newslist-box{background:#f2f2f2;padding-bottom:30px}
+.news-main{display:flex}
+.news-main .lf{width:820px;margin-right:20px}
+.white-panel{background:#fff;margin-bottom:30px;padding:30px}
+.rt .white-panel{width:290px}
+.type-list{display:flex;flex-wrap:wrap}
+.type-list li{border:1px solid #e3e3e3;border-radius:20px;width:130px;box-sizing:border-box;margin:15px 0;margin-right:30px}
+.type-list li:nth-child(2n+2){margin-right:0}
+.type-list li:hover{background:#ff4a5c;border-color:#ff4a5c}
+.type-list li:hover a{color:#fff}
+.type-list a{display:block;width:100%;height:40px;padding:0;line-height:40px;text-align:center;cursor:pointer;transition:all .2s}
+.credit-list{padding:10px 0;display:block;position:relative}
+.credit-list h3{font-size:15px;color:#333;line-height:30px}
+.credit-list p{font-size:12px;color:#909090;width:100%}
+.credit-list img{width:135px;height:85px;object-fit:contain;margin-top:10px}
+.apply-btn{width:90px;height:24px;line-height:24px;border-radius:3px;display:block;color:#fff;text-align:center;font-size:12px;background:#f34f4f;position:absolute;cursor:pointer;right:10px;top:95px}
+.title{padding:0;border-bottom:1px solid #ededed;font-size:20px;line-height:28px;color:#333}
+.title span{display:inline-block;padding-bottom:6px;border-bottom:1px solid #ff4a5c;margin-bottom:-1px}
+.nopadding{padding:0}
+.component-module-title{display:flex;align-items:center;font-size:.64rem;font-weight:700;color:#333;position:relative;font-size:24px;color:#333;margin-bottom:25px}
+.component-module-title:before{content:"";display:block;width:3px;height:25px;background:#f34f4f;margin-right:16px}
+.bankicon-list{display:flex;flex-wrap:wrap}
+.bankicon-list li{width:24.25%;height:60px;margin-bottom:7px;background:#f9f9f9;margin-right:1%}
+.bankicon-list li:nth-child(4n+4){margin-right:0}
+.bankicon-list a{display:flex;align-items:center;justify-content:center;height:100%;width:100%}
+.bankicon-list img{height:24px;width:24px;margin-right:5px}
+.bankicon-list span{font-size:16px;color:#333}
+.component-text-list li{margin:8px 0}
+.component-text-list a{font-size:14px;color:#333;line-height:24px;position:relative;padding-left:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.component-text-list a::after{position:absolute;content:"";display:block;left:0;top:7px;height:5px;width:5px;border-radius:50%;background:#ccc}
+.component-text-list a:hover{color:#f34f4f}
+.aside-module-body{display:flex;flex-wrap:wrap;margin-top:16px}
+.aside-module-body li{width:33%;margin-bottom:8px}
+.aside-module-body a{font-size:14px;color:#333}
+.aside-module-body a:hover{color:#f34f4f}

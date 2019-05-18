@@ -1,0 +1,30 @@
+.bank-main{display:flex;justify-content:space-between;padding:50px 0}
+.big-card img{height:100%;width:250px;object-fit:contain}
+.card-text{width:500px}
+.firsttl{font-size:34px;color:#191919}
+.secondtl{font-size:18px;color:#191919;padding:10px 0 0 0;line-height:28px}
+.moretl{display:flex;flex-direction:column;align-items:center;margin-top:65px}
+.moretl p{margin-left:auto}
+.moretl p a{font-size:18px;color:#7f7f7f;border-bottom:solid 1px #7f7f7f}
+.donow-btn{font-size:22px;color:#fff;text-align:center;display:inline-block;background:#5e98ee;padding:0 60px;height:40px;line-height:40px;border-radius:40px}
+.bak-card-list{background:#f5f5f5}
+.bak-card-list ul{display:flex;flex-wrap:wrap;padding:30px 0}
+.bak-card-list li{width:49.5%;margin-right:1%;background:#fff;padding:25px 45px;box-sizing:border-box;margin-bottom:30px}
+.bak-card-list li:hover{box-shadow:0 0 15px #ccc}
+.bak-card-list li:nth-child(2n+2){margin-right:0}
+.card-name{line-height:30px;font-size:24px;color:#565656}
+.card-adv{line-height:24px;font-size:14px;color:#f53b46;border-bottom:1px dashed #b4b4b4;padding-bottom:15px;margin-bottom:20px}
+.card-box{display:flex;align-items:center}
+.card-pic{width:45%;margin-right:10%;position:relative;display:flex;align-items:center}
+.card-pic img{width:100%}
+.card-layer{display:none;background:#000;width:100%;height:100%;position:absolute;top:0;left:0;border-radius:5px;align-items:center;justify-content:center;opacity:.6}
+.card-layer a{font-size:14px;color:#fff;border:1px solid #fff;display:block;width:80px;height:30px;text-align:center;line-height:30px}
+.card-pic:hover .card-layer{display:flex}
+.card-box-text{line-height:24px;font-size:13px;color:#919191;padding-left:10px;position:relative}
+.card-box-text::after{position:absolute;top:10px;left:0;height:4px;width:4px;border-radius:50%;background:#919191;content:"";display:block}
+.card-btn{margin-top:20px;display:flex;align-items:center}
+.card-tag{display:flex}
+.tag-msg{display:block;height:20px;padding:0 5px;line-height:20px;color:#ff4f3f;font-size:12px;border:1px solid #ff4f3f;margin-right:10px;cursor:pointer}
+.card-sq-btn{margin-left:auto}
+.card-sq-btn a{display:block;height:40px;line-height:40px;background:#ff4f3f;color:#fff;padding:0 25px;opacity:.9}
+.card-sq-btn a:hover{opacity:1}

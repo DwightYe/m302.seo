@@ -29,14 +29,15 @@
 .space-show-statement .f{margin-top:20px;display:flex}
 .space-show-statement .f img{margin-right:20px}
 .today-hot{margin-top:20px}
-.today-hot ul{display:flex;padding:30px 0;flex-wrap:wrap}
-.today-hot li{width:32%;margin-right:2%;margin-bottom:15px}
-.today-hot li:nth-child(3n+3){margin-right:0}
-.today-hot a{display:block}
-.today-hot img{width:100%;height:158px;object-fit:cover;border-radius:8px}
-.today-hot p{-webkit-line-clamp:2;overflow:hidden;display:-webkit-box;text-overflow:ellipsis;-webkit-box-orient:vertical}
 .today-hot-title{padding:0;font-size:20px;line-height:28px;color:#333}
 .today-hot-title span{display:inline-block;border-left:3px solid #ff4a5c;padding-left:15px}
+.today-hot ul{display:flex;padding-top:30px;flex-wrap:wrap}
+.today-hot li{width:48%;margin-right:4%;padding-bottom:10px;border-bottom:1px solid #eee;margin-bottom:15px}
+.today-hot li:nth-child(2n+2){margin-right:0}
+.today-hot a{display:block;font-size:14px;position:relative;padding-left:15px;color:#666}
+.today-hot a:hover{color:#ff4a5c}
+.today-hot a::after{position:absolute;content:"";display:block;background:#eee;height:5px;width:5px;left:0;top:8px;border-radius:50%}
+.today-hot a:hover::after{background:#ff4a5c}
 .title{padding:0;border-bottom:1px solid #ededed;font-size:20px;line-height:28px;color:#333}
 .title span{display:inline-block;padding-bottom:6px;border-bottom:1px solid #ff4a5c;margin-bottom:-1px}
 .widget-post-list-withImage{padding-top:10px;padding-left:0;margin:0;list-style:none}

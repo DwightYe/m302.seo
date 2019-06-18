@@ -56,11 +56,11 @@ html{font-size:16px}
 .header-register-btn{padding:0 15px;height:32px;margin-left:20px;border:1px solid #ff4f3f;border-radius:3px;text-align:center;transition:all .5s}
 .header-register-btn:hover{background:#ff4f3f;color:#fff}
 .blue-link-box{display:flex;flex-wrap:wrap}
-.blue-link-box li{width:100px;margin-bottom:5px;margin-right:10px;color:rgba(0,0,0,.6);display:inline-block}
+.blue-link-box li{width:100px;margin:5px 10px 5px 0;color:rgba(0,0,0,.6);display:inline-block}
 .blue-link-box a{font-size:12px;color:rgba(0,0,0,.6);line-height:13.8px}
 .blue-link-box a:hover{color:#5079b7;text-decoration:unset}
-.footer-linkPart .title{margin-top:0;font-size:18px;color:rgba(0,0,0,.44);font-weight:400;padding-top:30px}
-.footer-linkPart{padding:20px 0;margin-top:30px}
+.footer-linkPart .title{margin-top:0;font-size:18px;color:rgba(0,0,0,.44);font-weight:400}
+.footer-linkPart{padding:20px 0;margin-top:5px}
 .footer-title{font-weight:600;color:#fff;margin-bottom:20px;font-size:16px}
 .footer-nav a{font-size:14px}
 .info-section{width:440px;padding-right:30px;font-size:14px}

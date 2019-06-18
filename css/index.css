@@ -65,16 +65,18 @@
 .back-fff{background:#fff}
 .gcon-box{margin-bottom:40px}
 /*! index=newspanel */
-.newspanel{background:#fff;margin-bottom:40px;display:flex;padding:30px 0}
+.newspanel{background:#fff;margin-bottom:40px;display:flex;padding:10px 0 30px 0}
 .newspanel .lf,.newspanel .rt{width:25%;display:flex;flex-direction:column;padding:0 25px}
-.newspanel .center{width:50%}
-.gl-title{margin-bottom:18px;color:#262626;font-size:18px;font-weight:700}
+.newspanel .center{width:50%;display:flex;flex-direction:column}
+.gl-title{margin-bottom:15px;color:#262626;font-size:18px;font-weight:700}
 .newspanel .lf{border-right:1px solid #ebebeb}
 .newspanel .rt{border-left:1px solid #ebebeb}
 .gl-list a{font-size:14px;color:#595959}
 .gl-list li{list-style:inside;margin-bottom:5px}
+.gl-list li:nth-last-child(1){margin-bottom:0}
 .gl-tags{display:flex;flex-wrap:wrap;justify-content:space-between;margin-top:auto}
-.gl-tags li{display:block;width:48%;text-align:center;margin-top:15px}
+.gl-tags li{display:block;width:48%;text-align:center;margin-bottom:16px}
+.gl-tags li:nth-last-child(-n+2){margin-bottom:0}
 .gl-tags a{color:#595959;background:#f2f2f2;display:block;padding:0;line-height:34px;font-size:14px}
 .newspanel a:hover{color:#e52010}
 .news-pic-slide-list{display:flex;width:300%;transition:all .3s}
@@ -83,11 +85,11 @@
 .news-list-nav li{padding:10px;cursor:pointer}
 .news-list-nav li i{width:15px;height:15px;display:block;background:rgba(0,0,0,.541);border-radius:50%;box-sizing:border-box;border:1px solid #fff}
 .news-list-nav li.active i{background:#f34f4f}
-.news-pic-slide-list li{width:33.333333%}
+.news-pic-slide-list li{width:33.333333%;height:265px}
 .news-pic-slide-list li img{display:block;width:100%;height:100%;object-fit:cover}
 .newspanel-news-list ul{flex-wrap:wrap;display:flex;justify-content:space-between;padding:0 20px}
-.newspanel-news-list ul li{width:48%;list-style:inside;margin-top:10px}
-.newspanel-news-list{margin-top:60px}
+.newspanel-news-list ul li{width:48%;list-style:inside;margin-top:12px}
+.newspanel-news-list{margin-top:auto}
 .newspanel-news-list ul li a{font-size:14px}
 .videolist{display:flex;flex-wrap:wrap;justify-content:space-between;padding:15px}
 .videolist li{width:23%;margin-bottom:20px}
@@ -116,10 +118,9 @@ a:hover{color:#f48b4f;text-decoration:underline}
 .common-right-list li{line-height:34px;font-size:14px;color:#666;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .common-right-list li a:first-child,.common-right-list li span{float:right;font-size:12px;color:#999}
 .common-right-list li a:hover{color:#f48b4f}
-.common-label{margin:22px 0 10px -15px}
+.common-label{margin:19px 0 10px -14px}
 .common-label a{display:inline-block;margin:0 0 18px 15px;padding:0 12px;line-height:26px;border-radius:2px;background:#f9fbfd;font-size:14px;color:#666}
 .common-label a:hover{color:#666;text-decoration:none;background:#edf2fb}
-.common-label .common-label-other{background:#f9fbfd}
 .question-list{margin-left:-20px;padding:10px 0;border-bottom:1px dashed #e4e4e4}
 .question-list li{margin-left:20px;width:300px;line-height:42px}
 .question-list li span{float:right;color:#999}

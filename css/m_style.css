@@ -215,10 +215,10 @@ body{max-width:640px;margin:0 auto;background:#fff;min-height:100vh}
 .clearfix:after{clear:both}
 .filter li,.fl{float:left}
 .fr{float:right}
-.wrap{max-width:384px;margin:0 auto}
+.wrap{margin:0 auto}
 .area{margin-bottom:12px;background-color:#fff}
 .bank_credit_center .tabs span .on i{position:absolute;left:50%;transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%)}
-.crumbs{height:36px;line-height:36px;background-color:#fff;font-size:12.6px;padding:0 15px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#999;border-bottom:1.002px solid #efefef;max-width:384px;margin:0 auto}
+.crumbs{height:36px;line-height:36px;background-color:#fff;font-size:12.6px;padding:0 15px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#999;border-bottom:1.002px solid #efefef;margin:0 auto}
 .crumbs a{color:#999}
 .crumbs #location{color:#222}
 .bank_credit_center{padding:18px 18px 24px;background-color:#fff;margin-top:12px}
@@ -236,7 +236,7 @@ body{max-width:640px;margin:0 auto;background:#fff;min-height:100vh}
 .bank_credit_center .toggle_list .toggle_warp .list{height:198px;overflow:hidden}
 .bank_credit_center .toggle_list .toggle_warp .more-btn{width:100%;height:15.6px;line-height:15.6px;display:block;text-align:center;color:#999;font-size:15.6px;padding-top:12px}
 .bank_credit_center .tabs span .on i{position:absolute;left:50%;transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%)}
-.filter{position:relative;line-height:42px;color:#999;margin-bottom:0;z-index:10;border-bottom:1.002px solid #e4e4e4;max-width:384px;margin:0 auto}
+.filter{position:relative;line-height:42px;color:#999;margin-bottom:0;z-index:10;border-bottom:1.002px solid #e4e4e4;margin:0 auto}
 .filter li{width:33%;text-align:center}
 .filter li i{color:#585764;margin-left:6px}
 .filter li .filter-list{position:absolute;top:42px;left:0;width:100%;background-color:#f3f4f6;display:none}
@@ -251,7 +251,7 @@ body{max-width:640px;margin:0 auto;background:#fff;min-height:100vh}
 .wrap .item .a-btn .card .desc-ul i{position:absolute;left:0;top:7.8px;display:block;width:6px;height:6px;background:#cfcfcf;border-radius:50%}
 .wrap .item .a-btn span{color:#666;border:1.002px solid #dadada;font-size:9.6px;padding:3.6px 4.8px;border-radius:4.998px;margin-right:6px}
 .wrap .item .apply-btn{display:inline-block;color:#fe3616;border:1.002px solid #fe3616;font-size:12px;padding:1.8px 9px;border-radius:25.002px;position:absolute;right:18px;bottom:12px}
-.wrap .area{margin-bottom:0;border-top:8px solid #f4f4f4}
+.wrap .area{margin-bottom:0}
 .gray-btn{background-color:#fff;color:#bdbdbd;margin:3px 0;display:block;text-align:center;line-height:36px}
 .bank_credit_center{margin-top:6px}
 /*! m_baiduxinyongka */
@@ -396,11 +396,11 @@ li.index__cardItem-fyR_F .index__keywordsW-1yC1S .index__keywordsItem-IJn2S:not(
 .swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000}
 /*! m_yinhangjie  */
 .m_yinhangjie{font-size:14.4px}
-.wrap{max-width:384px;margin:0 auto}
+.wrap{margin:0 auto}
 .bank_credit_center .tabs span .on i{position:absolute;left:50%;transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%)}
 .art_module .recommend_tit .line,.hot_bank .recommend_tit .line,.hot_theme .recommend_tit .line,.news .recommend_tit .line,header .gonglue,header .icon-back,header .icon-user-after,header .icon-user-before,header .logo{position:absolute;top:50%;transform:translateY(-50%);-ms-transform:translateY(-50%);-moz-transform:translateY(-50%);-webkit-transform:translateY(-50%);-o-transform:translateY(-50%)}
 .art_module .recommend_tit,.hot_bank .recommend_tit,.hot_theme .recommend_tit,.news .recommend_tit{height:24px;line-height:24px;color:#222;font-size:18px;position:relative;padding:12px 15px}
-.art_module .recommend_tit .line,.hot_bank .recommend_tit .line,.hot_theme .recommend_tit .line,.news .recommend_tit .line{width:3.6px;height:24px;background:url(../img/m_icon/line.png) no-repeat left top;background-size:100% 100%;display:inline-block;left:0}
+.art_module .recommend_tit .line,.hot_bank .recommend_tit .line,.hot_theme .recommend_tit .line,.news .recommend_tit .line{width:3.6px;height:17px;background:url(../img/m_icon/line.png) no-repeat left top;background-size:100% 100%;display:inline-block;left:8px}
 .art_module .recommend_tit a,.hot_bank .recommend_tit a,.hot_theme .recommend_tit a,.news .recommend_tit a{float:right;font-size:12.6px;color:#999;display:inline-block}
 .art_module .recommend_tit a .arrow_right,.hot_bank .recommend_tit a .arrow_right,.hot_theme .recommend_tit a .arrow_right,.news .recommend_tit a .arrow_right{width:6px;height:10.8px;display:inline-block;background:url(../img/m_icon/arrow-right.png) no-repeat left top;background-size:100% 100%;margin-left:6px}
 .view_more{display:block;padding:18px 0;text-align:center;color:#999;font-size:15.6px}
@@ -430,7 +430,7 @@ li.index__cardItem-fyR_F .index__keywordsW-1yC1S .index__keywordsItem-IJn2S:not(
 .bank_credit_center .toggle_list .toggle_warp .list{height:198px;overflow:hidden}
 .bank_credit_center .toggle_list .toggle_warp .more-btn{width:100%;height:15.6px;line-height:15.6px;display:block;text-align:center;color:#999;font-size:15.6px;padding-top:12px}
 .bank_credit_center .tabs span .on i{position:absolute;left:50%;transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%)}
-.wrap{max-width:384px;margin:0 auto;background-color:#f3f4f6}
+.wrap{margin:0 auto;background-color:#f3f4f6}
 .crumbs{height:36px;line-height:36px;background-color:#fff;font-size:12.6px;padding:0 15px;color:#999;border-bottom:1.002px solid #efefef}
 .recommend_card{background-color:#fff}
 .recommend_card .recommend_wrap{padding:0 15px}

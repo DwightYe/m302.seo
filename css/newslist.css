@@ -29,10 +29,10 @@
 .title span{display:inline-block;padding-bottom:6px;border-bottom:1px solid #ff4a5c;margin-bottom:-1px}
 .newest-news ul{padding:10px 0}
 .newest-news li{padding:20px 0}
-.newest-news a{display:flex}
-.newest-news .news-pic{width:200px;height:130px}
+.newest-news a{display:flex;height:130px}
+.newest-news .news-pic{width:200px;height:130px;flex:0 0 auto;margin-right:30px}
 .newest-news .news-title{font-size:18px}
-.newest-news .news-text{padding:0;padding-left:30px;width:calc(100% - 200px);box-sizing:border-box}
+.newest-news .news-text{padding:0;width:100%;box-sizing:border-box}
 .newest-news .news-intro{-webkit-line-clamp:2;font-size:14px}
 .newest-news .tags{bottom:0}
 .paging-bar{margin:0 auto;display:flex;justify-content:center}

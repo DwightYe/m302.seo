@@ -1,6 +1,6 @@
 .newslist-box{background:#f2f2f2;padding-bottom:30px}
 .news-main{display:flex}
-.news-main .lf{width:820px;margin-right:20px;padding:30px;background:#fff}
+.news-main .lf{width:830px;margin-right:20px;padding:30px;background:#fff}
 .title{padding:0;border-bottom:1px solid #ededed;font-size:20px;line-height:28px;color:#333}
 .title span{display:inline-block;padding-bottom:6px;border-bottom:1px solid #ff4a5c;margin-bottom:-1px}
 .paging-bar{margin:0 auto;display:flex;justify-content:center}
